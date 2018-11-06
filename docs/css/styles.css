@@ -12,6 +12,18 @@
     display: inline;
 }
 
+#banner {
+    background: url("../images/happy.png") no-repeat;
+    background-size: cover;
+    height: 367px;
+}
+
+#banner h1 {
+    position: relative;
+    top: 115px;
+    left: 100px;
+}
+
 .floatLeft {
     float: left;
 }
@@ -25,6 +37,7 @@
     height: 100px;
     width: auto;
 }
+
 .logoPic {
     height: 100px;
     width: auto;
@@ -41,6 +54,7 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+
 .grFont {
     line-height: 27px;
     font-size: 16px;
@@ -66,14 +80,6 @@
     text-align: justify;
 }
 
-.alignRight {
-    text-align: right;
-}
-
-.alignCenter {
-    text-align: center;
-}
-
 .img {
     position: relative;
     height: 215px;
@@ -87,5 +93,11 @@
 
 .marginTop {
     margin-top: 50px;
+}
+
+#panel1, #panel2, #panel3 {
+    padding-left: 18px;
+    padding-right: 18px;
+    width: 284px;
 }
 
